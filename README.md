@@ -1,8 +1,6 @@
 ## The Genesis Project - A Cold War Crisis Map Generator
 
-The goal of Genesis Project is to create an extensible, customizable random map generator for the real-time strategy game Cold War Crisis.
-
-[http://www.cold-war-crisis.de](http://www.cold-war-crisis.de)
+The goal of Genesis Project is to create an extensible, customizable random map generator for the real-time strategy game [Cold War Crisis](http://www.moddb.com/mods/cold-war-crisis).
 
 CWC is based on Command & Conquer Generals: Zero Hour by EA which comes with a powerful map editor called Worldbuilder. This editor enables players to create their own single- and multiplayer maps, and while that can be fun and rewarding all by itself, it also requires quite a lot of experience, patience and time.
 
