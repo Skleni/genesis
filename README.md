@@ -1,6 +1,5 @@
-# The Genesis Project - A Cold War Crisis Map Generator
+## The Genesis Project - A Cold War Crisis Map Generator
 
-## Project Description
 The goal of Genesis Project is to create an extensible, customizable random map generator for the real-time strategy game Cold War Crisis.
 
 [http://www.cold-war-crisis.de](http://www.cold-war-crisis.de)
@@ -19,7 +18,7 @@ The Genesis Project aims to create a tool which can automatically create fully p
 
 The generator should have the following characteristics:
 ### Customizability
-The user should be able to define the setting of the generated map (climate, number of mountains, ...).
+The user should be able to define the setting of the generated map (climate, number of mountains, ...). Check the [wiki](https://github.com/Skleni/genesis/wiki) for advanced customization options.
 ### Modularity
 The generation process consists of many different steps. It should be possible to implement each of these steps independently.
 ### Extensibility
