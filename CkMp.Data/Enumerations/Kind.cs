@@ -1,0 +1,143 @@
+﻿#region License
+
+// Kind.cs
+// Author: Daniel Sklenitzka
+//
+// Copyright 2013 The CWC Team
+// 
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+// 
+//     http://www.apache.org/licenses/LICENSE-2.0
+// 
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+#endregion
+
+namespace CkMp.Data.Enumerations
+{
+    public enum Kind : short
+    {
+        OBSTACLE = 0,
+        SELECTABLE = 1,
+        IMMOBILE = 2,
+        CAN_ATTACK = 3,
+        STICK_TO_TERRAIN_SLOPE = 4,
+        CAN_CAST_REFLECTIONS = 5,
+        SHRUBBERY = 6,
+        STRUCTURE = 7,
+        INFANTRY = 8,
+        VEHICLE = 9,
+        AIRCRAFT = 10,
+        HUGE_VEHICLE = 11,
+        DOZER = 12,
+        HARVESTER = 13,
+        COMMANDCENTER = 14,
+        LINEBUILD = 15,
+        SALVAGER = 16,
+        WEAPON_SALVAGER = 17,
+        TRANSPORT = 18,
+        BRIDGE = 19,
+        LANDMARK_BRIDGE = 20,
+        BRIDGE_TOWER = 21,
+        PROJECTILE = 22,
+        PRELOAD = 23,
+        NO_GARRISON = 24,
+        WAVEGUIDE = 25,
+        WAVE_EFFECT = 26,
+        NO_COLLIDE = 27,
+        REPAIR_PAD = 28,
+        HEAL_PAD = 29,
+        STEALTH_GARRISON = 30,
+        CASH_GENERATOR = 31,
+        DRAWABLE_ONLY = 32,
+        MP_COUNT_FOR_VICTORY = 33,
+        REBUILD_HOLE = 34,
+        SCORE = 35,
+        SCORE_CREATE = 36,
+        SCORE_DESTROY = 37,
+        NO_HEAL_ICON = 38,
+        CAN_RAPPEL = 39,
+        PARACHUTABLE = 40,
+        CAN_BE_REPULSED = 41,
+        MOB_NEXUS = 42,
+        IGNORED_IN_GUI = 43,
+        CRATE = 44,
+        CAPTURABLE = 45,
+        CLEARED_BY_BUILD = 46,
+        SMALL_MISSILE = 47,
+        ALWAYS_VISIBLE = 48,
+        UNATTACKABLE = 49,
+        MINE = 50,
+        CLEANUP_HAZARD = 51,
+        PORTABLE_STRUCTURE = 52,
+        ALWAYS_SELECTABLE = 53,
+        ATTACK_NEEDS_LINE_OF_SIGHT = 54,
+        WALK_ON_TOP_OF_WALL = 55,
+        DEFENSIVE_WALL = 56,
+        FS_POWER = 57,
+        FS_FACTORY = 58,
+        FS_BASE_DEFENSE = 59,
+        FS_TECHNOLOGY = 60,
+        AIRCRAFT_PATH_AROUND = 61,
+        LOW_OVERLAPPABLE = 62,
+        FORCEATTACKABLE = 63,
+        AUTO_RALLYPOINT = 64,
+        TECH_BUILDING = 65,
+        POWERED = 66,
+        PRODUCED_AT_HELIPAD = 67,
+        DRONE = 68,
+        CAN_SEE_THROUGH_STRUCTURE = 69,
+        BALLISTIC_MISSILE = 70,
+        CLICK_THROUGH = 71,
+        SUPPLY_SOURCE_ON_PREVIEW = 72,
+        PARACHUTE = 73,
+        GARRISONABLE_UNTIL_DESTROYED = 74,
+        BOAT = 75,
+        IMMUNE_TO_CAPTURE = 76,
+        HULK = 77,
+        SHOW_PORTRAIT_WHEN_CONTROLLED = 78,
+        SPAWNS_ARE_THE_WEAPONS = 79,
+        CANNOT_BUILD_NEAR_SUPPLIES = 80,
+        SUPPLY_SOURCE = 81,
+        REVEAL_TO_ALL = 82,
+        DISGUISER = 83,
+        INERT = 84,
+        HERO = 85,
+        IGNORES_SELECT_ALL = 86,
+        DONT_AUTO_CRUSH_INFANTRY = 87,
+        CLIFF_JUMPER = 88,
+        FS_SUPPLY_DROPZONE = 89,
+        FS_SUPERWEAPON = 90,
+        FS_BLACK_MARKET = 91,
+        FS_SUPPLY_CENTER = 92,
+        FS_STRATEGY_CENTER = 93,
+        MONEY_HACKER = 94,
+        ARMOR_SALVAGER = 95,
+        REVEALS_ENEMY_PATHS = 96,
+        BOOBY_TRAP = 97,
+        FS_FAKE = 98,
+        FS_INTERNET_CENTER = 99,
+        BLAST_CRATER = 100,
+        PROP = 101,
+        OPTIMIZED_TREE = 102,
+        FS_ADVANCED_TECH = 103,
+        FS_BARRACKS = 104,
+        FS_WARFACTORY = 105,
+        FS_AIRFIELD = 106,
+        AIRCRAFT_CARRIER = 107,
+        NO_SELECT = 108,
+        REJECT_UNMANNED = 109,
+        CANNOT_RETALIATE = 110,
+        TECH_BASE_DEFENSE = 111,
+        EMP_HARDENED = 112,
+        DEMOTRAP = 113,
+        CONSERVATIVE_BUILDING = 114,
+        IGNORE_DOCKING_BONES = 115
+    }
+}

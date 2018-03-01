@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scenery Name="Snow" Weather="Snow">
+  <BaseTexture Name="SnowLargeType1" Size="384"/>
+  <OverlayTextures>
+    <Texture Name="SnowType5" Size="256" Granularity="0.05"/>
+    <Texture Name="SnowType6" Size="256" Granularity="0.1"/>
+  </OverlayTextures>
+  <CliffTexture Name="CliffMediumType17bsnowy" Size="256"/>
+  <CliffOverlayTextures>
+    <Texture Name="CliffMediumType17b" Size="256" Granularity="0.23"/>
+  </CliffOverlayTextures>
+  <Trees>
+    <Tree>CWCnatTreePine3snow</Tree>
+    <Tree>CWCnatTreeDogwood1Snow</Tree>
+    <Tree>CWCnatTreeSpruce03Snow</Tree>
+    <Tree>CWCnatTreeSpruce04Snow</Tree>
+    <Tree>CWCnatTreeSpruce05Snow</Tree>
+  </Trees>
+  <Rocks>
+    <Rock>Rocks8</Rock>
+    <Rock>Rocks9</Rock>
+    <Rock>Rocks10</Rock>
+  </Rocks>
+  <Road>TwoLane</Road>
+</Scenery>

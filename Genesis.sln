@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis", "Genesis\Genesis.csproj", "{270225C8-F914-4A63-9969-F79B0EC420E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Algorithms", "Genesis.Algorithms\Genesis.Algorithms.csproj", "{4DC1F4D7-8960-4FFF-A577-143FACD7F90F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CkMp.Data", "CkMp.Data\CkMp.Data.csproj", "{23986F0D-441F-46D9-A401-DA3085B3D743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Previews", "Genesis.Previews\Genesis.Previews.csproj", "{07AFAE1A-7DE5-4D1F-91F9-14772CE1C611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.MapGenerator", "Genesis.MapGenerator\Genesis.MapGenerator.csproj", "{30FF5820-5AB9-4EF9-8D3E-F0C58E820A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.UI", "Genesis.UI\Genesis.UI.csproj", "{88D9C61A-3DEF-40AB-830E-1F4C962ADF12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Xaml", "Genesis.Xaml\Genesis.Xaml.csproj", "{3FA0833C-E21A-405C-A659-5243C5A26BDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processors", "Processors", "{E82B127D-D4A6-4E8D-9749-8F1BFB5CB4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Processors", "Genesis.Processors\Genesis.Processors.csproj", "{47A30174-A8A2-414F-94CD-43CB32B2F620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Processors.CWC", "Genesis.Processors.CWC\Genesis.Processors.CWC.csproj", "{417473E4-A21A-4046-B2A9-F0F13F82B289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "License", "License", "{4BB2DCD9-FB4B-4E8E-8843-D8C9BF756273}"
+	ProjectSection(SolutionItems) = preProject
+		Genesis.licenseheader = Genesis.licenseheader
+		LICENSE.txt = LICENSE.txt
+		NOTICE.txt = NOTICE.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CkMp.Data.CWC", "CkMp.Data.CWC\CkMp.Data.CWC.csproj", "{164C3FEC-8270-46F9-8561-E272FA8E7B13}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs31
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CkMp.Data\\CkMp.Data.csproj
+		SccProjectName1 = CkMp.Data
+		SccLocalPath1 = CkMp.Data
+		SccProjectUniqueName2 = Genesis.Algorithms\\Genesis.Algorithms.csproj
+		SccProjectName2 = Genesis.Algorithms
+		SccLocalPath2 = Genesis.Algorithms
+		SccProjectUniqueName3 = Genesis.MapGenerator\\Genesis.MapGenerator.csproj
+		SccProjectName3 = Genesis.MapGenerator
+		SccLocalPath3 = Genesis.MapGenerator
+		SccProjectUniqueName4 = Genesis.Previews\\Genesis.Previews.csproj
+		SccProjectName4 = Genesis.Previews
+		SccLocalPath4 = Genesis.Previews
+		SccProjectUniqueName5 = Genesis.Processors.CWC\\Genesis.Processors.CWC.csproj
+		SccProjectTopLevelParentUniqueName5 = Genesis.sln
+		SccProjectName5 = Genesis.Processors.CWC
+		SccLocalPath5 = Genesis.Processors.CWC
+		SccProjectUniqueName6 = Genesis.Processors\\Genesis.Processors.csproj
+		SccProjectTopLevelParentUniqueName6 = Genesis.sln
+		SccProjectName6 = Genesis.Processors
+		SccLocalPath6 = Genesis.Processors
+		SccProjectUniqueName7 = Genesis.UI\\Genesis.UI.csproj
+		SccProjectName7 = Genesis.UI
+		SccLocalPath7 = Genesis.UI
+		SccProjectUniqueName8 = Genesis.Xaml\\Genesis.Xaml.csproj
+		SccProjectName8 = Genesis.Xaml
+		SccLocalPath8 = Genesis.Xaml
+		SccProjectUniqueName9 = Genesis\\Genesis.csproj
+		SccProjectName9 = Genesis
+		SccLocalPath9 = Genesis
+		SccProjectUniqueName10 = CkMp.Data.CWC\\CkMp.Data.CWC.csproj
+		SccProjectName10 = CkMp.Data.CWC
+		SccLocalPath10 = CkMp.Data.CWC
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{270225C8-F914-4A63-9969-F79B0EC420E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270225C8-F914-4A63-9969-F79B0EC420E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270225C8-F914-4A63-9969-F79B0EC420E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270225C8-F914-4A63-9969-F79B0EC420E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC1F4D7-8960-4FFF-A577-143FACD7F90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC1F4D7-8960-4FFF-A577-143FACD7F90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC1F4D7-8960-4FFF-A577-143FACD7F90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC1F4D7-8960-4FFF-A577-143FACD7F90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23986F0D-441F-46D9-A401-DA3085B3D743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23986F0D-441F-46D9-A401-DA3085B3D743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23986F0D-441F-46D9-A401-DA3085B3D743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23986F0D-441F-46D9-A401-DA3085B3D743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AFAE1A-7DE5-4D1F-91F9-14772CE1C611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AFAE1A-7DE5-4D1F-91F9-14772CE1C611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AFAE1A-7DE5-4D1F-91F9-14772CE1C611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AFAE1A-7DE5-4D1F-91F9-14772CE1C611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FF5820-5AB9-4EF9-8D3E-F0C58E820A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FF5820-5AB9-4EF9-8D3E-F0C58E820A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FF5820-5AB9-4EF9-8D3E-F0C58E820A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FF5820-5AB9-4EF9-8D3E-F0C58E820A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D9C61A-3DEF-40AB-830E-1F4C962ADF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D9C61A-3DEF-40AB-830E-1F4C962ADF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D9C61A-3DEF-40AB-830E-1F4C962ADF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D9C61A-3DEF-40AB-830E-1F4C962ADF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA0833C-E21A-405C-A659-5243C5A26BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA0833C-E21A-405C-A659-5243C5A26BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA0833C-E21A-405C-A659-5243C5A26BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA0833C-E21A-405C-A659-5243C5A26BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A30174-A8A2-414F-94CD-43CB32B2F620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A30174-A8A2-414F-94CD-43CB32B2F620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A30174-A8A2-414F-94CD-43CB32B2F620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A30174-A8A2-414F-94CD-43CB32B2F620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417473E4-A21A-4046-B2A9-F0F13F82B289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417473E4-A21A-4046-B2A9-F0F13F82B289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417473E4-A21A-4046-B2A9-F0F13F82B289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417473E4-A21A-4046-B2A9-F0F13F82B289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164C3FEC-8270-46F9-8561-E272FA8E7B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164C3FEC-8270-46F9-8561-E272FA8E7B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164C3FEC-8270-46F9-8561-E272FA8E7B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164C3FEC-8270-46F9-8561-E272FA8E7B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47A30174-A8A2-414F-94CD-43CB32B2F620} = {E82B127D-D4A6-4E8D-9749-8F1BFB5CB4D5}
+		{417473E4-A21A-4046-B2A9-F0F13F82B289} = {E82B127D-D4A6-4E8D-9749-8F1BFB5CB4D5}
+	EndGlobalSection
+EndGlobal

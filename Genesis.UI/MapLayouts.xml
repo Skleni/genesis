@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MapLayouts>
+  <MapLayout Name="Default" Height="40">
+    <TerrainLayers>
+      <TerrainLayer Name="Hills" Height="200" Elevation="1.3" Jaggedness="0.005" Ruggedness="0.25" LevelOfDetail="3"/>
+      <TerrainLayer Name="Depressions" Height="-40" Elevation="1.22" Jaggedness="0.014" Ruggedness="0.7" LevelOfDetail="2"/>
+      <TerrainLayer Name="Bumps" Height="13" Elevation="0.79" Jaggedness="0.038" Ruggedness="0.8" LevelOfDetail="3" IsDetail="true"/>
+    </TerrainLayers>
+  </MapLayout>
+</MapLayouts>

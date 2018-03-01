@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scenery Name="Highlands" Weather="Normal">
+  <BaseTexture Name="GrassLargeType1" Size="384"/>
+  <OverlayTextures>
+    <Texture Name="GrassMediumType22" Size="256" Granularity="0.05"/>
+    <Texture Name="GrassMediumType6" Size="256" Granularity="0.07"/>
+    <Texture Name="GrassMediumType5" Size="256" Granularity="0.1"/>
+  </OverlayTextures>
+  <CliffTexture Name="CliffMediumType15b" Size="256"/>
+  <CliffOverlayTextures>
+    <Texture Name="CliffMediumType17" Size="256" Granularity="0.23"/>
+  </CliffOverlayTextures>
+  <Trees>
+    <Tree>CWCnatTreePine3</Tree>
+    <Tree>CWCnatTreeDogwood1</Tree>
+    <Tree>CWCnatTreeSpruce</Tree>
+    <Tree>CWCnatTreeSpruce2</Tree>
+    <Tree>CWCnatTreeDogwood8</Tree>
+  </Trees>
+  <Rocks>
+    <Rock>Rocks1Brown</Rock>
+    <Rock>Rocks2Brown</Rock>
+    <Rock>Rocks3Brown</Rock>
+  </Rocks>
+  <Road>TwoLane</Road>
+</Scenery>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scenery Name="Fall" Weather="Normal">
+  <BaseTexture Name="GrassMediumType30" Size="256"/>
+  <OverlayTextures>
+    <Texture Name="GrassMediumType11b" Size="256" Granularity="0.1"/>
+    <Texture Name="GrassMediumType37d" Size="256" Granularity="0.15"/>
+    <Texture Name="GrassMediumType10" Size="256" Granularity="0.07"/>
+  </OverlayTextures>
+  <CliffTexture Name="CliffMediumType15" Size="256"/>
+  <CliffOverlayTextures>
+    <Texture Name="CliffMediumType13" Size="256" Granularity="0.2"/>
+    <Texture Name="GrassMediumType23" Size="256" Granularity="0.3"/>
+  </CliffOverlayTextures>
+  <Trees>
+    <Tree>CWCnatTreeOak05</Tree>
+    <Tree>CWCnatTreeOak05</Tree>
+    <Tree>CWCnatTreePine3</Tree>
+    <Tree>CWCnatTreePine3</Tree>
+    <Tree>CWCnatTreeSpruce</Tree>
+    <Tree>CWCnatTreeSpruce</Tree>
+    <Tree>CWCnatTreeSpruce2</Tree>
+    <Tree>CWCnatTreeSpruce2</Tree>
+    <Tree>CWCnatTreeDogwood3</Tree>
+    <Tree>CWCnatTreeDogwood4</Tree>
+    <Tree>CWCnatTreeDogwood7</Tree>
+    <Tree>CWCnatTreeDogwood8</Tree>
+    <Tree>CWCnatTreeDogwood8</Tree>
+    <Tree>CWCnatTreeOakFall2</Tree>
+    <Tree>CWCnatTreeOakFall4</Tree>
+    <Tree>CWCnatTreeOakFall6</Tree>
+    <Tree>CWCnatTreeOakFall7</Tree>
+  </Trees>
+  <Rocks>
+    <Rock>Rocks1</Rock>
+    <Rock>Rocks2</Rock>
+    <Rock>Rocks3</Rock>
+    <Rock>Rocks4</Rock>
+    <Rock>Rocks5</Rock>
+    <Rock>Rocks6</Rock>
+    <Rock>Rocks7</Rock>
+  </Rocks>
+  <Road>TwoLaneDarkDotted</Road>
+</Scenery>
